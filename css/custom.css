@@ -1,6 +1,11 @@
 /*******
 COLOR CHEAT SHEET
-
+https://coolors.co/003049-be2323-f77f00-fcb322-eae2b7
+003049 - Space Blue
+be2323 - Brick Red
+f77f00 - Orange
+fcb322 - Gold
+eae2b7 - Vanilla
 
 
 
@@ -11,3 +16,10 @@ COLOR CHEAT SHEET
 /************************/
 /******** FONTS *********/
 /************************/
+body, p, div {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+h1,  h2, h3, h4, h5, h6 {
+    font-family: "Sigmar", sans-serif;
+}
