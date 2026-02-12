@@ -4,7 +4,7 @@ https://coolors.co/003049-be2323-f77f00-fcb322-eae2b7
 003049 - Space Blue
 be2323 - Brick Red
 f77f00 - Orange
-fcb322 - Gold
+ffaa01 - Gold
 eae2b7 - Vanilla
 
 
@@ -22,4 +22,26 @@ body, p, div {
 
 h1,  h2, h3, h4, h5, h6 {
     font-family: "Sigmar", sans-serif;
+}
+
+/************************/
+/******** HERO *********/
+/************************/
+
+header.masthead {
+    background:url("https://wallpapercave.com/wp/wp1811999.jpg");
+    background-size: cover;
+}
+
+.masthead h1 {
+    color: #f77f00;
+    text-shadow: 2px 2px 5px black;
+    font-size: 74px !important;
+}
+
+.masthead p {
+    color: #ffaa01 ;
+    font-weight: 800;
+    font-size: 25px !important;
+    text-shadow: 2px 2px 5px black;
 }
