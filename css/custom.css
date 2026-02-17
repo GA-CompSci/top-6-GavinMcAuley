@@ -6,6 +6,7 @@ be2323 - Brick Red
 f77f00 - Orange
 ffaa01 - Gold
 eae2b7 - Vanilla
+fcb322 - Different Gold
 
 
 
@@ -45,3 +46,35 @@ header.masthead {
     font-size: 25px !important;
     text-shadow: 2px 2px 5px black;
 }
+
+/************************/
+/******** PORTFOLIO *********/
+/************************/
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #eae2b7e0;
+}
+
+
+/************************/
+/******** COLORS *********/
+/************************/
+
+.text-primary{
+    color: #be2323 !important;
+
+}
+
+.bg-primary {
+    background-color: #003049 !important;
+}
+
+.bg-dark{
+    background-color: #be2323 !important;
+}
+
+hr.divider {
+    background-color: #fcb322 !important;
+}
+
+.btn-primary
