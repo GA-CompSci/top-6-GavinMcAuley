@@ -52,7 +52,7 @@ header.masthead {
 /************************/
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
-    background: #eae2b7e0;
+    background: #002f49a9;
 }
 
 
@@ -70,11 +70,23 @@ header.masthead {
 }
 
 .bg-dark{
-    background-color: #be2323 !important;
+    background-color: #eae2b7  !important;
 }
 
 hr.divider {
     background-color: #fcb322 !important;
 }
 
-.btn-primary
+.btn-primary {
+    background-color: #fcb322 !important;
+}
+.btn-primary:hover {
+    background-color: #ac7c1b !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #fcb322 !important;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #fcb322;
+}
