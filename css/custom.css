@@ -64,12 +64,16 @@ header.masthead {
     color: #be2323 !important;
 
 }
+.text-blue{
+    color: #003049 !important;
+
+}
 
 .bg-primary {
     background-color: #003049 !important;
 }
 
-.bg-dark{
+.bg-white{
     background-color: #eae2b7  !important;
 }
 
@@ -83,10 +87,32 @@ hr.divider {
 .btn-primary:hover {
     background-color: #ac7c1b !important;
 }
+.btn-light { background-color: #eae2b7 !important;
 
+}
+.btn-light:hover {background-color: #fcb322 !important;
+    
+}
 #mainNav .navbar-nav .nav-item .nav-link.active {
     color: #fcb322 !important;
 }
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #fcb322;
+}
+
+.text-white-75 {
+    color: #eae2b7 !important;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: #eae2b7 !important;
+}
+
+.text-white {
+    color: #eae2b7 !important;
+}
+
+.carousel-caption {
+    text-shadow: 2px 2px 5px black;
 }
